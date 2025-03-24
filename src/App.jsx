@@ -2,6 +2,7 @@ import Main from "./components/main.jsx";
 import NavBar from "./components/NavBar.jsx";
 import Technologies from "./components/technologies.jsx";
 import Experience from "./components/experience.jsx";
+import Contact from "./components/contact.jsx";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Main />
         <Technologies />
         <Experience />
+        <Contact />
       </div>
     </div>
   );
