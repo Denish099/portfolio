@@ -1,4 +1,4 @@
-import Main from "./components/Main.jsx";
+import Main from "./components/main.jsx";
 import NavBar from "./components/NavBar.jsx";
 
 export default function App() {
