@@ -1,6 +1,7 @@
 import Main from "./components/main.jsx";
 import NavBar from "./components/NavBar.jsx";
 import Technologies from "./components/technologies.jsx";
+import Experience from "./components/experience.jsx";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
         <NavBar />
         <Main />
         <Technologies />
+        <Experience />
       </div>
     </div>
   );
