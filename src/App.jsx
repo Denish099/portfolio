@@ -1,5 +1,6 @@
 import Main from "./components/main.jsx";
 import NavBar from "./components/NavBar.jsx";
+import Technologies from "./components/technologies.jsx";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <div className="container mx-auto px-8 lg:px-16 relative z-10">
         <NavBar />
         <Main />
+        <Technologies />
       </div>
     </div>
   );
